@@ -18,6 +18,7 @@ Some require specific external programs to be installed.
 
 Python Applications:
 - wq_bwa - Distributed implementation of the Burroughs-Wheeler Algorithm (BWA) genome search tool.
+- wq_diffusion - Distributed simulation of Brownian motion.
 - wq_ensemble - Remote native python function evaluation as Work Queue tasks.
 - wq_repex - Distributed implementation of replica exchange algorithm using the Protomol molecular dynamics system.
 

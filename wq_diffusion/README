@@ -1,0 +1,18 @@
+The diffusion.py program is a toy simulation of Brownian motion on the integer
+line to simulate diffusion. Each task flips a coin a given number of times; if
+0 move left, if 1 move right.
+
+To run:
+
+1. Install CCTools. For example, using conda:
+conda create --yes --name work_queue_env python=3.8
+conda install --yes --name work_queue_env install --channel=conda-forge ndcctools
+conda activate work_queue_env
+
+2. Execute (for 500 tasks, 100 steps each): python wq_diffusion.py 500 100
+3. Start workers, such as: work_queue_worker localhost 9123
+
+This example assumes that the worker is executed inside a valid python
+environment. (For example, that the conda environment work_queue_env or similar
+is available at the worker's execution site.)
+
